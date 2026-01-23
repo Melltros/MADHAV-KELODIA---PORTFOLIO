@@ -10,9 +10,9 @@
   <meta name="description"
     content="Portfolio of a Designer and Coder specializing in UI design, design systems, and clean, elegant front-end development.">
   <meta name="keywords" content="designer, developer, UI design, front-end, portfolio">
-  <meta name="author" content="Guneet">
+  <meta name="author" content="Madhav Kelodia">
 
-  <title>Designer & Coder | Portfolio</title>
+  <title>Madhav Kelodia | Designer & Coder</title>
 
   <!-- ============================================
        FONTS
@@ -20,7 +20,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;600;800&family=Fira+Code:wght@400;500&display=swap"
     rel="stylesheet">
 
   <!-- ============================================
@@ -29,7 +29,7 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
+<body class="light-theme">
   <!-- ============================================
        HEADER / NAVIGATION
        ============================================ -->
@@ -37,53 +37,46 @@
     <div class="header__container">
       <!-- Logo -->
       <a href="#top" class="logo">
-        <div class="logo__icon">M</div>
+        <div class="logo__icon magnetic">M</div>
       </a>
 
       <!-- Navigation -->
       <nav class="nav">
-        <ul class="nav__links">
-          <li><a href="#top" class="nav__link nav__link--active">about</a></li>
-          <li><a href="#" class="nav__link">learn</a></li>
-          <li><a href="#projects" class="nav__link">portfolio</a></li>
-          <li><a href="#" class="nav__link">blog</a></li>
-          <li><a href="#" class="nav__link">contact</a></li>
-        </ul>
-
-        <!-- Social Links -->
-        <div class="nav__social">
-          <a href="#" class="nav__social-link" aria-label="Twitter">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-              <path
-                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
-            </svg>
-          </a>
-          <a href="#" class="nav__social-link" aria-label="LinkedIn">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-              <path
-                d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
-            </svg>
-          </a>
-          <a href="#" class="nav__social-link" aria-label="Facebook">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-              <path
-                d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
-            </svg>
-          </a>
-          <a href="#" class="nav__social-link" aria-label="Instagram">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-              <path
-                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
-            </svg>
-          </a>
-        </div>
-
         <!-- Mobile Toggle -->
-        <button class="nav__toggle" aria-label="Toggle navigation">
+        <button class="nav__toggle" aria-label="Toggle navigation" aria-expanded="false">
           <span></span>
           <span></span>
           <span></span>
         </button>
+
+        <!-- Mobile Menu Container -->
+        <div class="nav__menu">
+          <ul class="nav__links">
+            <li><a href="#home" class="nav__link nav__link--active magnetic">home</a></li>
+            <li><a href="#about-info" class="nav__link magnetic">about</a></li>
+            <li><a href="#ai-workflow" class="nav__link magnetic">AI Workflow</a></li>
+            <li><a href="#projects" class="nav__link magnetic">portfolio</a></li>
+            <li><a href="#" class="nav__link magnetic">blog</a></li>
+          </ul>
+
+          <!-- Social Links -->
+          <div class="nav__social">
+            <a href="https://linkedin.com/in/madhav-kelodia" class="nav__social-link magnetic" aria-label="LinkedIn"
+              target="_blank">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+              </svg>
+            </a>
+            <a href="https://github.com/madhavkelodia" class="nav__social-link magnetic" aria-label="GitHub"
+              target="_blank">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.042-1.416-4.042-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+              </svg>
+            </a>
+          </div>
+        </div>
       </nav>
     </div>
   </header>
@@ -92,50 +85,44 @@
     <!-- ============================================
          HERO SECTION
          ============================================ -->
-    <section class="hero" id="about">
+    <section class="hero" id="home">
       <div class="hero__container">
         <!-- Designer Side (Left) -->
-        <div class="hero__designer fade-in">
+        <div class="hero__designer">
           <h1 class="hero__title">designer</h1>
           <p class="hero__subtitle">
-            Product designer specialising in UI<br>
-            design and design systems.
+            Madhav Kelodia — An AI-augmented designer<br>
+            crafting creative experiences 5x faster.
           </p>
         </div>
 
         <!-- Portrait (Center) -->
-        <div class="hero__portrait fade-in">
-
-
+        <div class="hero__portrait">
           <div class="hero__portrait-wrapper">
             <div class="hero__hover-zone hero__hover-zone--left"></div>
             <div class="hero__hover-zone hero__hover-zone--right"></div>
-            <img src="portrait-designer.png" alt="Portrait - Designer side with artistic paint effect"
-              class="hero__portrait-designer">
-            <img src="portrait-coder.png" alt="Portrait - Coder side" class="hero__portrait-coder">
+            <img src="portrait-designer.png" alt="Madhav - Designer Side" class="hero__portrait-designer">
+            <img src="portrait-coder.png" alt="Madhav - Coder Side" class="hero__portrait-coder">
           </div>
         </div>
 
         <!-- Coder Side (Right) -->
-        <div class="hero__coder fade-in">
-          <!-- Background Code Snippets -->
+        <div class="hero__coder">
           <div class="hero__code-snippets" aria-hidden="true">
             <span>&lt;html&gt;</span>
-            <span>&nbsp;&nbsp;height:184px;</span>
-            <span>&nbsp;&nbsp;class="jedi"&gt;</span>
-            <span class="hero__code-highlight">CSS3 HTML5</span>
-            <span>&nbsp;&nbsp;color:#000;</span>
-            <span>&nbsp;&nbsp;jQuery</span>
+            <span>&nbsp;&nbsp;id: "madhav";</span>
+            <span>&nbsp;&nbsp;role: "full-stack";</span>
+            <span class="hero__code-highlight">NEXTJS THREEJS</span>
+            <span>&nbsp;&nbsp;theme: "dark";</span>
+            <span>&nbsp;&nbsp;jQuery.isDead();</span>
           </div>
           <h1 class="hero__title hero__title--coder">&lt;coder&gt;</h1>
           <p class="hero__subtitle">
-            Front end developer who writes<br>
-            clean, elegant and efficient code.
+            An innovative developer building<br>
+            scalable, efficient web solutions.
           </p>
         </div>
       </div>
-
-
     </section>
 
     <!-- Google-style Color Bar -->
@@ -147,102 +134,172 @@
     </div>
 
     <!-- ============================================
-         PROJECTS SECTION
+         ABOUT SECTION (Personal Info)
+         ============================================ -->
+    <section class="about-info" id="about-info">
+      <div class="container--narrow">
+        <div class="about-info__grid">
+          <!-- Bio Card -->
+          <div class="glass-card about-info__bio-card scroll-reveal">
+            <h2 class="section__label">01. Bio</h2>
+            <p class="about-info__text">
+              I'm Madhav Kelodia, a multidisciplinary creator sitting at the intersection of design and code.
+              My passion lies in building intuitive, visually stunning products that solve real problems.
+              By integrating **AI into my core workflow**, I deliver premium quality at unprecedented speeds.
+            </p>
+          </div>
+
+          <!-- Quick Info Cards -->
+          <div class="about-info__quick">
+            <div class="glass-card about-info__small-card scroll-reveal">
+              <h2 class="section__label">Age</h2>
+              <p class="about-info__val">18</p>
+            </div>
+            <div class="glass-card about-info__small-card scroll-reveal">
+              <h2 class="section__label">Specialty</h2>
+              <p class="about-info__val">AI & Design</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================
+         AI WORKFLOW SECTION
+         ============================================ -->
+    <section class="ai-workflow" id="ai-workflow">
+      <div class="container--narrow">
+        <header class="section__header scroll-reveal">
+          <h2 class="projects__title">The AI Edge</h2>
+          <p class="projects__subtitle">Why hiring me is the best decision for your business.</p>
+        </header>
+
+        <div class="ai-workflow__grid">
+          <div class="glass-card ai-workflow__card scroll-reveal">
+            <div class="ai-workflow__icon">🚀</div>
+            <h3 class="ai-workflow__name">5x Speed</h3>
+            <p class="ai-workflow__desc">Using AI for scaffolding, debugging, and asset creation allows me to produce
+              results in hours, not days.</p>
+          </div>
+          <div class="glass-card ai-workflow__card scroll-reveal">
+            <div class="ai-workflow__icon">🎨</div>
+            <h3 class="ai-workflow__name">Infinite Creativity</h3>
+            <p class="ai-workflow__desc">AI enables rapid prototyping and exploration of complex design systems that
+              were previously impossible.</p>
+          </div>
+          <div class="glass-card ai-workflow__card scroll-reveal">
+            <div class="ai-workflow__icon">🛠️</div>
+            <h3 class="ai-workflow__name">Tech Mastery</h3>
+            <p class="ai-workflow__desc">From Three.js to GSAP, my AI-augmented coding allows me to master any stack
+              instantly.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================
+         SKILLS SECTION (My Arsenal)
+         ============================================ -->
+    <section class="skills" id="skills">
+      <div class="container--narrow">
+        <header class="section__header scroll-reveal">
+          <h2 class="projects__title">My Arsenal</h2>
+          <p class="projects__subtitle">The tools and talents I use to bring ideas to life.</p>
+        </header>
+
+        <div class="skills__grid">
+          <!-- Development -->
+          <div class="glass-card skills__category">
+            <h3 class="skills__cat-title">Development</h3>
+            <ul class="skills__list">
+              <li class="skills__item"><span class="skills__icon">🐍</span> Python</li>
+              <li class="skills__item"><span class="skills__icon">🌐</span> HTML / CSS</li>
+              <li class="skills__item"><span class="skills__icon">⚡</span> GSAP / Three.js</li>
+            </ul>
+          </div>
+
+          <!-- Creative -->
+          <div class="glass-card skills__category">
+            <h3 class="skills__cat-title">Creative</h3>
+            <ul class="skills__list">
+              <li class="skills__item"><span class="skills__icon">🎨</span> UI/UX Design</li>
+              <li class="skills__item"><span class="skills__icon">🎙️</span> Voice Artist</li>
+              <li class="skills__item"><span class="skills__icon">📸</span> Video Editor</li>
+            </ul>
+          </div>
+
+          <!-- AI Mastery -->
+          <div class="glass-card skills__category">
+            <h3 class="skills__cat-title">AI Mastery</h3>
+            <ul class="skills__list">
+              <li class="skills__item"><span class="skills__icon">🤖</span> AI-Augmented Coding</li>
+              <li class="skills__item"><span class="skills__icon">🪄</span> Prompt Engineering</li>
+              <li class="skills__item"><span class="skills__icon">🔄</span> Rapid Prototyping</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================
+         PROJECTS SECTION (Bento Grid)
          ============================================ -->
     <section class="projects" id="projects">
       <div class="projects__container">
         <!-- Section Header -->
-        <header class="projects__header">
-          <h2 class="projects__title">Some of My Latest Work</h2>
+        <header class="projects__header scroll-reveal">
+          <h2 class="projects__title">Latest Works</h2>
+          <p class="projects__subtitle">A selection of featured projects and experiments.</p>
         </header>
 
-        <!-- Projects Grid -->
-        <div class="projects__grid">
-          <!-- Project Card 1 -->
-          <article class="project-card fade-in">
-            <div class="project-card__image">
-              <div class="project-card__placeholder">
-                <div class="project-card__placeholder-header">
-                  <span class="project-card__placeholder-dot project-card__placeholder-dot--green"></span>
-                  <span class="project-card__placeholder-dot project-card__placeholder-dot--yellow"></span>
-                  <span class="project-card__placeholder-dot project-card__placeholder-dot--red"></span>
-                </div>
-                <div class="project-card__placeholder-lines">
-                  <div class="project-card__placeholder-line"></div>
-                  <div class="project-card__placeholder-line"></div>
-                  <div class="project-card__placeholder-line"></div>
-                </div>
+        <!-- Bento Grid -->
+        <div class="bento-grid">
+          <!-- Featured Project (Big) -->
+          <article class="bento-card bento-card--large glass-card">
+            <div class="bento-card__content">
+              <div class="bento-card__info">
+                <span class="bento-card__tag">Featured Case Study</span>
+                <h3 class="bento-card__name">AI Design Dashboard</h3>
+                <p class="bento-card__desc">A high-performance interface for managing AI-driven workflows.</p>
               </div>
-            </div>
-            <div class="project-card__content">
-              <div class="project-card__info">
-                <h3 class="project-card__name">My Figma design system</h3>
-                <p class="project-card__category">Design system</p>
-              </div>
-              <div class="project-card__arrow">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M5 12h14M12 5l7 7-7 7" />
-                </svg>
+              <div class="bento-card__visual">
+                <div class="placeholder-visual"></div>
               </div>
             </div>
           </article>
 
-          <!-- Project Card 2 -->
-          <article class="project-card fade-in">
-            <div class="project-card__image">
-              <div class="project-card__placeholder"
-                style="background: linear-gradient(135deg, #e0f2fe 0%, #bae6fd 100%);">
-                <div class="project-card__placeholder-header">
-                  <span class="project-card__placeholder-dot project-card__placeholder-dot--green"></span>
-                  <span class="project-card__placeholder-dot project-card__placeholder-dot--yellow"></span>
-                  <span class="project-card__placeholder-dot project-card__placeholder-dot--red"></span>
-                </div>
-                <div class="project-card__placeholder-lines">
-                  <div class="project-card__placeholder-line" style="background: #0ea5e9;"></div>
-                  <div class="project-card__placeholder-line" style="background: #38bdf8;"></div>
-                  <div class="project-card__placeholder-line" style="background: #7dd3fc;"></div>
-                </div>
-              </div>
-            </div>
-            <div class="project-card__content">
-              <div class="project-card__info">
-                <h3 class="project-card__name">My UI design book</h3>
-                <p class="project-card__category">Book</p>
-              </div>
-              <div class="project-card__arrow">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M5 12h14M12 5l7 7-7 7" />
-                </svg>
+          <!-- Project 2 -->
+          <article class="bento-card glass-card">
+            <div class="bento-card__content">
+              <div class="bento-card__info">
+                <span class="bento-card__tag">Development</span>
+                <h3 class="bento-card__name">Portfolio V3</h3>
+                <p class="bento-card__desc">Experimental GSAP animations and creative split interaction.</p>
               </div>
             </div>
           </article>
 
-          <!-- Project Card 3 -->
-          <article class="project-card fade-in">
-            <div class="project-card__image">
-              <div class="project-card__placeholder"
-                style="background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);">
-                <div class="project-card__placeholder-header">
-                  <span class="project-card__placeholder-dot project-card__placeholder-dot--green"></span>
-                  <span class="project-card__placeholder-dot project-card__placeholder-dot--yellow"></span>
-                  <span class="project-card__placeholder-dot project-card__placeholder-dot--red"></span>
-                </div>
-                <div class="project-card__placeholder-lines">
-                  <div class="project-card__placeholder-line" style="background: #f59e0b;"></div>
-                  <div class="project-card__placeholder-line" style="background: #fbbf24;"></div>
-                  <div class="project-card__placeholder-line" style="background: #fcd34d;"></div>
-                </div>
+          <!-- Project 3 -->
+          <article class="bento-card glass-card">
+            <div class="bento-card__content">
+              <div class="bento-card__info">
+                <span class="bento-card__tag">UI Design</span>
+                <h3 class="bento-card__name">Luxe Museum</h3>
+                <p class="bento-card__desc">A prestigious, dark-themed museum experience.</p>
               </div>
             </div>
-            <div class="project-card__content">
-              <div class="project-card__info">
-                <h3 class="project-card__name">Creating a lean design system</h3>
-                <p class="project-card__category">Design system</p>
+          </article>
+
+          <!-- Project 4 (Wide) -->
+          <article class="bento-card bento-card--wide glass-card">
+            <div class="bento-card__content bento-card__content--horizontal">
+              <div class="bento-card__info">
+                <span class="bento-card__tag">Design System</span>
+                <h3 class="bento-card__name">Modular UI Kit</h3>
+                <p class="bento-card__desc">A comprehensive set of components for rapid prototyping.</p>
               </div>
-              <div class="project-card__arrow">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M5 12h14M12 5l7 7-7 7" />
-                </svg>
+              <div class="bento-card__visual bento-card__visual--side">
+                <div class="placeholder-visual small"></div>
               </div>
             </div>
           </article>
@@ -256,21 +313,21 @@
        ============================================ -->
   <footer class="footer">
     <!-- Back to Top Button -->
-    <a href="#top" class="footer__back-to-top" aria-label="Back to top">
+    <a href="#top" class="footer__back-to-top magnetic" aria-label="Back to top">
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
         <path d="M18 15l-6-6-6 6" />
       </svg>
     </a>
 
     <div class="footer__container">
-      <p class="footer__copyright">&copy; 2026 Madhav</p>
+      <p class="footer__copyright">&copy; 2026 Madhav Kelodia</p>
 
       <nav class="footer__nav">
-        <a href="#" class="footer__link">about</a>
-        <a href="#" class="footer__link">learn</a>
-        <a href="#projects" class="footer__link">portfolio</a>
-        <a href="#" class="footer__link">blog</a>
-        <a href="#" class="footer__link">contact</a>
+        <a href="#home" class="footer__link magnetic">home</a>
+        <a href="#about-info" class="footer__link magnetic">about</a>
+        <a href="#ai-workflow" class="footer__link magnetic">workflow</a>
+        <a href="#projects" class="footer__link magnetic">portfolio</a>
+        <a href="#" class="footer__link magnetic">blog</a>
       </nav>
     </div>
   </footer>
@@ -278,6 +335,9 @@
   <!-- ============================================
        SCRIPTS
        ============================================ -->
+  <!-- GSAP Core and ScrollTrigger Plugin -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
   <script src="script.js"></script>
 </body>
 
